@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "clean-appledouble",
+      "type": "shell",
+      "command": "find . -name '._*' -delete",
+      "presentation": { "reveal": "silent" }
+    }
+  ]
+}
